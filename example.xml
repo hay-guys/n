@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="lineage-21.0" />
+	
+    <remote name="device"
+            fetch="https://github.com"
+            revision="lineage-21.0"/>
+
+    <remote name="kernel"
+            fetch="https://github.com"
+            revision="lineage-21.0"/>
+
+    <!-- Device Trees -->
+    <project path="device/samsung/sm-t113" name="sixito007/android_device_samsung_goyave3g" remote="device" />
+
+    <!-- Kernel -->
+    <project path="kernel/samsung/sm-t113" name="Thunderoar/android_device_samsung_goyave3g" remote="kernel" />
+
+    <!-- Vendor folders -->
+    <project path="vendor/samsung/sm-t113" name="sixito007/android_vendor_samsung_goyave3g" remote="vendor" />
+</manifest>
